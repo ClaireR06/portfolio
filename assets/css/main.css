@@ -9,7 +9,7 @@
 
 /* DEBUT IMAGES ZOOM */
 
-#myImgJoker, #myImgFearDriven, #myImgGuitar, #myImgMicro, #myImgRoom, #myImgGod{
+#myImgJoker, #myImgFearDriven, #myImgGuitar, #myImgMicro, #myImgRoom, #myImgGod, #myImgSpray{
   cursor: pointer;
   transition: 0.3s;
 }
