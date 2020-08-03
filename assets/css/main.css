@@ -9,7 +9,7 @@
 
 /* DEBUT IMAGES ZOOM */
 
-#myImgJoker, #myImgFearDriven, #myImgGuitar, #myImgMicro, #myImgRoom, #myImgGod, #myImgSpray{
+#myImgJoker, #myImgFearDriven, #myImgGuitar, #myImgMicro, #myImgRoom, #myImgGod, #myImgSpray, #myImgGameboy{
   cursor: pointer;
   transition: 0.3s;
 }
@@ -2172,7 +2172,7 @@ input, select, textarea {
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #802E32;
+		background-color: #e77cd9;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -2190,7 +2190,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #B04946;
+			background-color: #cd52fd;
 		}
 
 		input[type="button"]:active,
@@ -2198,7 +2198,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #50191D;
+			background-color: #6e00a1;
 		}
 
 /* Item */
@@ -2457,7 +2457,7 @@ input, select, textarea {
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					color: inherit;
+					color: whitesmoke;
 				}
 
 				#main > section.dark strong {
@@ -2505,6 +2505,14 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 17pt;
+			}
+
+			/* Taille texte balise p _____________________________________________________________________________*/
+			.portfolio, p {
+				font-size: 13pt;
+				padding-left: 5px;
+				padding-right: 5px;
+				line-height: 130%;	
 			}
 
 		/* Header */
